@@ -1,19 +1,24 @@
 {
-    "items": [
-        {
-            "id": 1,
-            "checked": false,
-            "item": "Almonds, Unsalted, in the blue bag"
-        },
-        {
-            "id": 2,
-            "checked": false,
-            "item": "pizza"
-        },
-        {
-            "id": 3,
-            "checked": false,
-            "item": "Bread"
-        }
-    ]
+  "items": [
+    {
+      "id": "1",
+      "checked": true,
+      "item": "pizza"
+    },
+    {
+      "id": "2",
+      "checked": false,
+      "item": "amala"
+    },
+    {
+      "id": "3",
+      "checked": true,
+      "item": "milk and bread"
+    },
+    {
+      "id": "4",
+      "checked": false,
+      "item": "cascade"
+    }
+  ]
 }
