@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Form from './Form';
 import List from './List';
+import Table from './Table';
 
 function App() {
   //The API URL to be passed into the useEffect hook.
@@ -45,7 +46,10 @@ function App() {
         reqType={reqType}
         setReqType={setReqType}
        />
-      <List
+      {/* <List
+        items={items}
+       /> */}
+      <Table
         items={items}
        />
       
